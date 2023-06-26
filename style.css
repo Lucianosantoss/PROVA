@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+html{
+font-family: Arial, Helvetica, sans-serif, sans-serif;
+text-justify: auto; 
+background-color: rgb(195, 192, 192);
+
+}
+
+.container{
+    max-width: 1920px;
+    width: 100%;
+
+}
+
+/* header*/  
+header{
+    position: relative;
+    top: 0;
+    height: auto;
+    width: 100%;
+
+}
+
+
+
+/*navbar*/
+nav{
+    position: fixed;
+    top: 0;
+    height: 100px;
+    width:100% ;
+    z-index: 1;
+    background-color: rgb(193, 192, 192);
+    border-bottom:  1px solid black;
+
+}
+nav:after{
+    clear: both;
+    content:"";
+    display: block;
+}
+
+.nav-container{
+max-width: 1200px;
+position: relative;
+margin-right: auto;
+margin-left: auto;
+}
+
+#logo{ 
+    height: 100px; 
+    width: 100px;
+    }
+
+/* nav,ul*/
+.nav-container ul{
+   float: right;
+   height: 100px;
+   line-height: 100px;
+  
+    }
+    /* nav,li*/
+.nav-container li{
+  float: left;
+  list-style: none;
+  margin: 0 15px;
+     }
+      /* nav,li.a*/
+.nav-container li a{
+    color: black;
+    transition: .5%;
+       }
+       .nav-container li a:hover{
+        color: black;
+           }
+    
+
+
+/*banner*/
+#main-banner{
+background: url(imagem/banner.jpg);
+background-size: cover;
+background-position: 0 55%;
+padding: relative;
+}
+
+#search-form{
+position: relative;
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+padding-top: 15em;
+padding-bottom: 15em;
+text-align: center;
+}
+
+#search-form{
+    font-size: 15px;
+    color: white;
+}
+
+/*rodapé*/
+
+
+
+
+/*novidade*/
+
+#artigo{
+    margin:auto ;
+    text-align: justify;
+    width: 450px;
+    height: 600px;
+    }
+
+
+
+p{
+    margin-left:5px;
+
+}
+
+
+/*imagens das paginas*/
+
+#jogo{
+    width: 450px;
+    height: 350px;
+}
+
+h2{
+    
+color: red;
+text-align: center;
+}
+#mjogo{
+    display: block;
+    margin: auto;
+}
+#mjogo1{
+    display: block;
+    margin: auto;
+    width: 750px;
+}
+h3{
+color: red;
+text-align: center;
+
+}
+#hh{
+    margin-top: 55px;
+   color: black; 
+   text-align: center;
+}
+#sob{
+margin:auto ;
+
+width: 500px;
+height: 500px;
+}
+h4{
+    margin-top: 30px;
+    color: black; 
+    text-align: center;
+ }
+ #insta{
+height: 30px;
+width: 30px;
+ }
+ #twi{
+    margin-left: auto;
+    height: 30px;
+    width: 30px;
+ }
+
+#primario{
+    margin:auto ;
+    text-align: justify;
+    width:850px;
+    height: auto;
+    border: black ;
+    }
+#blu{
+    color: blue;
+}
